@@ -1,0 +1,27 @@
+body {
+    background-color: #3F3351;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#gameScreen {
+    border: 2px solid white;
+    background-color: black;
+}
+
+#restart {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
